@@ -5,30 +5,30 @@ Thumbs.db
 .idea/
 
 # Compiled files
-*.class
-*.o
-*.pyc
-*.pyo
-*.dll
-*.exe
-*.pdb
-*.so
-*.out
+# *.class
+# *.o
+# *.pyc
+# *.pyo
+# *.dll
+# *.exe
+# *.pdb
+# *.so
+# *.out
 
 # Dependencies
 node_modules/
-bower_components/
-vendor/
-.yarn/
-yarn.lock
-npm-debug.log*
-yarn-error.log*
+# bower_components/
+# vendor/
+# .yarn/
+# yarn.lock
+# npm-debug.log*
+# yarn-error.log*
 
 # Build output
-build/
-dist/
-out/
-public/
+# build/
+# dist/
+# out/
+# public/
 
 # Environment variables
 .env
@@ -36,27 +36,27 @@ public/
 .env.*.local
 
 # IDE or editor specific files
-*.log
-*.swp
-*.swo
-*.swn
-*.cache
+# *.log
+# *.swp
+# *.swo
+# *.swn
+# *.cache
 
-# Webpack generated files
-*.js.map
-*.css.map
+# # Webpack generated files
+# *.js.map
+# *.css.map
 
 # Compiled Python files
-__pycache__/
-*.pyc
-*.pyo
+# __pycache__/
+# *.pyc
+# *.pyo
 
 # macOS
-.AppleDouble
-.AppleDesktop
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
-Thumbs.db
+# .AppleDouble
+# .AppleDesktop
+# ._*
+# .Spotlight-V100
+# .Trashes
+# Icon?
+# ehthumbs.db
+# Thumbs.db
