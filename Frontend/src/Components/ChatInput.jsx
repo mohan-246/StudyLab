@@ -17,12 +17,12 @@ const ChatInput = ({ updateMessage, chatRef, userName }) => {
     setMessage("");
     try {
       const response = await axios.post(
-        "http://localhost:4000/chat/assistant",
+        "https://studylab-backend.onrender.com/chat/assistant",
         { userMessage: mes }
       );
        
       response.data.reply ?  reply =  response.data.reply :  reply =  response.data.errorMessage;
-      console.log(response)
+      // console.log(response)
       updateMessage({ content: reply, name: "Assistant" });
     } catch (error) {
       console.error("Error sending message:", error);
